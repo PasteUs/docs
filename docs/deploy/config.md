@@ -2,7 +2,7 @@
 
 ## 前端
 
-位于 `usr/config.json`
+位于 `data/frontend-usr/config.json`
 
 | Key | Value | Description | Example |
 | :---: | :---: | --- | --- |
@@ -13,8 +13,6 @@
 | footer.text | Text | Link's text | `"CSDN"` |
 
 ### 示例
-
-`config.example.json`
 
 ```json
 {
@@ -37,6 +35,8 @@
 
 ## 后端
 
+位于 `data/backend-config/config.json`
+
 | Key | Description | Example |
 | :---: | --- | --- |
 | `version` | Config file's version, **DON'T** change this field yourself | `"3.3.0"` |
@@ -51,8 +51,6 @@
 | `database.database` | Database name | `"pasteme"` |
 
 ### 示例
-
-`config.example.json`
 
 ```json
 {
